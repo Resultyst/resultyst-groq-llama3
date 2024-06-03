@@ -1,36 +1,29 @@
-# Groq & Llama3 Template
----
+# Tublian AI Internship Challenge
 
-Simple Groq & Llama3 Template project for building applications using Llama3 and Groq Cloud API.
+To build an AI Tutor, a command-line chatbot that can answer questions and explain machine learning algorithms using GroqCloud and Llama3.
 
-## Tech Stack
+## Objective
 
-- [GroqCloud](https://console.groq.com/login) Create Groq Cloud API.
-- [Llama3](https://llama.meta.com/llama3/)
-- Python v3.9.13
----
+Build a command-line chatbot where users can type in questions and get answers about machine learning concepts. Your AI Tutor should be able to explain various machine learning algorithms and guide users through their learning journey.
 
-## Setup Instructions
+## Requirements
 
-### Update .env file
+- Build your application using JavaScript, Python, or any language of your choice.
+- Utilize GroqCloud and Llama3 for building your application.
+- Create an account on GroqCloud and generate an API key.
+- Ensure your application is capable of providing informative responses to user questions about machine learning.
 
-Update the .env file with your GROQ_API_KEY
+## Getting Started
 
-### Setup a virtual environment
+### 1. Create a GroqCloud Account
+Visit the GroqCloud website [here](https://groqcloud.com) and sign up for an account if you haven't already.
 
-`python3 -m venv env`
+### 2. Generate an API Key
+Once logged in, navigate to the API key generation page and generate a new API key. Make sure to keep it safe; you’ll need it to authenticate your requests.
 
-### Load virtual environment (Mac)
+### 3. Install Necessary Dependencies
+For Python developers, a template GitHub project with all dependencies configured is available [here](https://github.com/tublian/ai-tutor-python-template).
 
-`source env/bin/activate`
-
-### Install dependencies
-
-`pip install -r requirements.txt`
-
-### Run Hello Groq
-
-`python hello_groq.py`
-
-
+### 4. Build Your AI Tutor
+Start building your AI Tutor application using the resources provided and your preferred programming language.
 
